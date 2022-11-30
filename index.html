@@ -1,57 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJmR8LF39ptV7-8XwO-3fw1VV0iU0cXa46-A&usqp=CAU">
-    <title>Faculty of Arts Personal</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <a class="navbar-brand" href="#">Link</a>
-      <a class="navbar-brand" href="#">About</a>
-      <a class="navbar-brand" href="#">Services</a>
-      <a class="navbar-brand" href="#">Departments</a>
-      <a class="navbar-brand" href="#">Contact</a>
-      <a class="navbar-brand" href="#">Gallery</a>
-    </nav>
-<!-- Nav Bar Stops Here -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+</head>
+<body style="overflow-x: hidden; overflow-y:visible;">
+  <!-- Header Starts Here -->
+<div class="header_container">
+  <a href="#">
+    <img src="./images/logos.png" alt="header_image" class="header_logo">
   </a>
 </div>
+  <!-- Header Stops Here -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  <!-- Navigation Starts Here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <h3 style="color: white;">Faculty of Arts</h3>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Departments</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">Staffs Directory</a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>    
+        </ul>
+      </div>
+    </nav>
+      <!-- Navigation Stops Here -->
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="display: none;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/mosque.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/mosque (1).png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/mosque (2).png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/mosque (2).png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+<!-- Image Carousel Stops Here -->
+
+<!-- The Background Header Starts Here -->
+
+<div class="container_background">
+  <img src="./images/history.png" alt="Snow" class="header_image">
+  <h3 class="bottom-left"><a href="#">Home</a></h3>
+</div>
+<!-- The Background header Stops Here -->
+
+<!-- Welcome Message Starts Here -->
+
+<div class="container-fluid btm-ftr">     
+  <div class="row">
+    <div class="col-sm-3 col-md-6 col-lg-4">
+      <img src="./images/VC.png" alt="vc_img" class="dean_img">
+      <h3 style="text-align: center;">Prof Abdurrashid Na'Allah</h3>
+      <p style="text-align: center;">Vice Chancellor, University of Abuja</p>
+    </div>
+    <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">
+      <div style="padding: 20px; font-size: 20px; text-align: justify;">
+        <h3>Welcome Message from the VC</h3>
+        <p>On behalf of the entire staff and students of the Faculty of Arts,
+          it is my honour and privilege to welcome you to the Website of the Faculty of Arts, University of Abuja</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor, 
+          iusto laborum ullam perferendis vel a dolores aliquam sequi fuga harum provident hic doloribus. 
+          Dolorum facere rerum reprehenderit impedit consectetur.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="hr-div"> <!-- Important -->
+<!-- Message One -->
+
+<div class="container-fluid btm-ftr">     
+  <div class="row">
+    <div class="col-sm-3 col-md-6 col-lg-4">
+      <img src="./images/dean-arts.png" alt="dean-arts" class="dean_img">
+      <h3 style="text-align: center;">Prof Muhammad Umaru Ndagi</h3>
+      <p style="text-align: center;">Dean, Faculty of Arts</p>
+    </div>
+    <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">
+      <div style="padding: 20px; font-size: 20px; text-align: justify;">
+        <h3>Welcome Message from the Dean</h3>
+        <p>On behalf of the entire staff and students of the Faculty of Arts,
+          it is my honour and privilege to welcome you to the Website of the Faculty of Arts, University of Abuja</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor, 
+          iusto laborum ullam perferendis vel a dolores aliquam sequi fuga harum provident hic doloribus. 
+          Dolorum facere rerum reprehenderit impedit consectetur.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mission and Vision Starts Here -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm bg-success">
+      <h2>MISSION</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eveniet autem, 
+        tempora blanditiis et voluptatem tenetur eum magnam doloribus reprehenderit voluptatum asperiores voluptas inventore quos architecto? 
+        Deserunt minus aliquid nihil?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eveniet autem, 
+          tempora blanditiis et voluptatem tenetur eum magnam doloribus reprehenderit voluptatum asperiores voluptas inventore quos architecto? 
+          Deserunt minus aliquid nihil?</p>
+    </div>
+    <div class="col-sm bg-warning">
+      <h2>VISION</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eveniet autem, 
+        tempora blanditiis et voluptatem tenetur eum magnam doloribus reprehenderit voluptatum asperiores voluptas inventore quos architecto? 
+        Deserunt minus aliquid nihil?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eveniet autem, 
+          tempora blanditiis et voluptatem tenetur eum magnam doloribus reprehenderit voluptatum asperiores voluptas inventore quos architecto? 
+          Deserunt minus aliquid nihil?</p>
+    </div>
+  </div>  
+</div>
+<!-- Mission and Vision Stops Here -->
+
+<!-- Welcome Message Stops Here -->
+<!-- Footer Starts Here -->
+<div class="jumbotron-footer" style="margin-bottom:0">
+  <div class="row bg-success ">
+    <div class="col-md-4" style="padding: 30px; color: white;">
+        <h3>Contact information</h3>
+        <p>email: arts@uniabuja.edu.ng</p>
+        <p>Phone: +234 9065750161</p>
+        <h3>Address</h3>
+        <p>Main Campus Airport Road, Abuja, FCT, Nigeria</p>
+    </div>
+
+    <div class="col-md-4" style="padding: 30px; color: white;">
+     <h3>Contact information</h3>
+        <p>email: arts@uniabuja.edu.ng</p>
+        <p>Phone: +234 9065750161</p>
+        <h3>Address</h3>
+        <p>Main Campus Airport Road, Abuja, FCT, Nigeria</p>
+    </div>
+
+    <div class="col-md-4" style="padding: 30px; color: white;">
+      <h3>Contact information</h3>
+        <p>email: arts@uniabuja.edu.ng</p>
+        <p>Phone: +234 9065750161</p>
+        <h3>Address</h3>
+        <p>Main Campus Airport Road, Abuja, FCT, Nigeria</p>
+    </div>
+  </div>
+</div>
+<!-- Footer Starts Here -->
+
+<!-- Bootstrap Scripts Starts Here -->
+      <script src="./js/jquery-slim.min.js"></script>
+      <script src="./js/popper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+</body>
 </html>
