@@ -1,0 +1,74 @@
+.navbar-brand:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.hr-div{
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: green;
+    height: 2px;
+}
+
+.header_logo{
+    max-width: 400px;
+}
+
+.dean_img{
+    padding-right: 150px;
+    width: 500px;
+}
+
+.nav-link:hover{
+    border:2px solid white;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px){
+    .header_logo{
+        width: 250px;
+    }
+
+    .dean_img{
+        padding-right: 30px;
+        width: 300px;
+    }
+
+    .hr-div{
+        display: none;
+    }
+}
+
+.header_container{text-align: center; padding: 10px;}
+
+.container_background{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container_background a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 100px;
+    color: black;
+}
+
+.header_image{
+    width:100%;
+    height: 250px;
+    opacity: 0.4;
+}
+
+.btm-ftr{
+    /* border-bottom: 2px solid green; */
+    visibility: none;
+}
+
+@media only screen and (min-width:576px){.jumbotron-footer{padding:0px}}
